@@ -21,7 +21,6 @@ body  {
   	right: 0;
   	top: 0;
   	bottom: 0;
-  	z-index: -1;
 	background-image:url(images/Penguinbg.png);
 	background-position:top;
 }
@@ -31,14 +30,9 @@ body  {
 main {
 	width:100%;
 	display: block;
-
-
-
-
 }
 
 #headerimg {
-	
 	margin:auto auto 20px auto;
 	width:1400px;
 	
@@ -92,7 +86,8 @@ header {
 
 #donate {
 	float:right;
-	margin:10px 50px;
+	right:0;
+	
 }
 #primary {
 	border-bottom: #458DD0 1px solid;
@@ -129,10 +124,7 @@ header {
 #primary a:hover {
 	border-bottom: 2px solid #fff;
 }
-#primary a:active {
-	
-	border-bottom:2px solid #fff;
-}
+
 
 
 #hiddennav {
@@ -177,7 +169,7 @@ nav {
 }
 section {
 	margin:10px auto;
-	
+	width:100%;
 
 }
 
@@ -203,7 +195,7 @@ section {
 }
 
 #left {
-position:relative;
+	position:relative;
 	height:300px;
 	width:300px;
 	
@@ -439,14 +431,14 @@ footer li {
 footer a {
 	text-decoration: none;
 	color:#fff;
-}
+} 
 
 footer img:hover {
 
 
 }
 
-a .active{
+#current-page {
 	color:#FFAE00;
 }
 
@@ -461,6 +453,7 @@ a .active{
 #aboutright {
 	width:400px;
 }
+
 
 #aboutright h1 {
 	font-size:24px;
@@ -622,13 +615,7 @@ span textarea {
 	outline:1px solid #945905;
 }
 
-span input[type=text]:focus {
-    background-color: #BCD19B;
-}
 
-span input[type=comment]:focus {
-    background-color:#BCD19B;
-}
 
 span input[type=comment] {
 	height:150px;
@@ -739,10 +726,11 @@ span button:hover {
 }
 
 #donateright span button {
+	color:#fff;
 	width:300px;
 	outline:1px solid #945905;
 	margin-top:25px;
-	background-color:#AA844F;
+	background-color:#FFA614;
 }
 
 #donateright h1{
@@ -767,8 +755,53 @@ font-size:24px;
 }
 
 #paymethods {
-	
-	width:250px;
+	width:300px;
 	margin:auto;
 	
 }
+
+#paymethodstop {
+	margin:auto;
+	justify-content:space-between;
+	width:260px;
+	display:flex;
+}
+
+#paymethodsbot {
+	width:260px;
+	display:flex;
+	margin:20px auto auto auto;
+	justify-content:space-between;
+}
+
+#galwrap {
+	width:1400px;
+	margin:auto;
+	justify-content: space-between;
+	
+}
+
+#galwrap h1 {
+	font-size:24px;
+	color:#FFA614;
+}
+
+#gtop {
+	margin:auto;
+	display:flex;
+	justify-content: space-between;
+}
+
+#gmid {
+	margin:30px auto 30px auto;
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+#gbot {
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+}
+
