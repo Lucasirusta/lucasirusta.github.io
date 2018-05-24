@@ -946,8 +946,7 @@ display:none;
 
 }
 
-@media only screen 
-and (min-device-width:375px) 
+@media (max-width:375px) 
  { 
 	
 	
@@ -966,7 +965,7 @@ a:hover
 
 #menuToggle
 {	
-	width:100%;
+	width:70%;
   display: block;
   position: relative;
   top: 10px;
@@ -1068,7 +1067,7 @@ a:hover
   position: absolute;
   margin: -100px 0 0 -50px;
   padding: 50px;
-	width:375px;
+	max-width:375px;
   padding-top: 125px;
   
   background: #ededed;
@@ -1084,16 +1083,20 @@ a:hover
 
 #menu li
 {
-	
-  padding: 10px 0;
+
+  padding: 10px 10px;
   font-size: 22px;
 }
+	 
+
 
 /*
  * And let's slide it in from the left
  */
 #menuToggle input:checked ~ ul
 {
+	width:100%;
+
   transform: none;
 }
 
@@ -1109,8 +1112,9 @@ a:hover
 
 
 #primary {
-
-	width:320px;
+	padding:0;
+	margin:auto;
+	max-width:375px;
 }
 
 #primaryul {
@@ -1149,38 +1153,45 @@ a:hover
 	main {
 
 		width:100%;
-		margin:auto;
+
 	}
 	
 	#sectionwrapper {
 		width:100%;
 	}
 	section {
-	width:100%;
 	}
 	
 	#wrapper {
-		width:100%;
+	
 
 	}
+	 #quadwrap {
+		 display:block;
+
+		 width:100%;
+		 
+	 }
 
 #left {
-	
-	width:50%;
+	margin-left:10%;
+	width:80%;
 }
 
 #mid {
-	width:50%;
+	margin-left:10%;
+	width:80%;
 }
 
 #right {
-	width:50%;
+	margin-left:10%;
+	width:80%;
 	
 }
 
 #farright {
-	
-	display:none;
+	margin-left:5%;
+	display:block;
 }
 
 footer {
@@ -1197,6 +1208,8 @@ body {
 #footercontent {
 	display:none;
 }
+	 
+	 
 
 #social {
 	display:none;
