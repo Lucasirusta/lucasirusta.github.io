@@ -32,7 +32,7 @@ main {
 }
 
 #headerimg {
-	margin:auto auto 20px auto;
+	margin:30px auto 30px auto;
 	width:1400px;
 	
 }
@@ -89,7 +89,7 @@ header {
 	
 }
 #primary {
-	background-color:#24668B;
+	background-color:#464646;
 	font-weight:normal;
 	height:50px;
 
@@ -105,7 +105,7 @@ header {
     margin:auto;
     width:800px;
     overflow: hidden;
-    background-color: #24668B;
+    background-color: #464646;
 	
 }
 
@@ -359,10 +359,10 @@ footer {
 	width:100%;
 	height: 38px;
 	bottom:0;
-	border-top:1px solid #24668B;
+	border-top:1px solid #464646;
 	padding:0px 15px 0px;
 	position:fixed;
-	background-color:#24668B;
+	background-color:#464646;
 }
 
 #footercontent {
@@ -712,6 +712,110 @@ span button:hover {
 
 }
 
+
+
+#img1 {
+		display:flex;
+	height:250px;
+	margin-bottom:20px;
+}
+#img1 .imgone {
+	height:100%;
+	max-width:100%;
+}
+#img1 p {
+
+	padding:8px;
+	
+}
+	#img2 {
+		display:flex;
+	height:250px;
+		margin-bottom:20px;
+}
+#img2 .imgtwo {
+	max-width:100%;
+}
+#img2 p {
+	
+	padding:8px;
+	
+}
+	
+#img3 {
+	display:flex;
+	height:250px;
+}
+#img3 .imgthree {
+	max-width:100%;
+}
+#img3 p {
+	
+	padding:8px;
+	
+	
+}
+
+.date {
+	right:220px;
+	position:absolute;
+	font-size:12px;
+	
+}
+
+#img1 h1, #img2 h1, #img3 h1 {
+	padding: 0 8px 8px 8px;
+	width:80%;
+	color:#FFA614;
+	font-size:16px;
+}
+	
+	
+.textbox {
+	max-width:500px;
+	border:1px solid #000;
+	
+	
+}
+
+.textbox a {
+	margin-left:8px;
+}
+
+#newswrap {
+	width:1400px;
+	margin:25px auto auto auto;
+	display:flex;
+	justify-content: space-around;
+}
+
+#newsleft h1 {
+	padding: 0 px 8px 8px;
+	width:80%;
+	color:#FFA614;
+	font-size:22px;
+	
+}
+#newsleft {
+	
+	width:500px;
+}
+
+#newsright {
+	
+	width:800px;
+}
+
+#newsright p {
+	right:0;
+}
+
+#img1 h3, #img2 h3, #img3 h3 {
+	padding: 0 8px 8px 8px;
+	width:80%;
+	color:000;
+	font-size:16px;
+}
 #donateflex {
 	width:1000px;
 	margin:auto;
@@ -821,6 +925,8 @@ font-size:24px;
 		display:none;
 		weight:0px;
 	}
+
+
 
 @media(max-width:1024px) and (min-width:768px) {
 
@@ -950,7 +1056,7 @@ display:none;
  { 
 	
 	
-a
+#menu a
 {
   text-decoration: none;
   color: #232323;
@@ -958,7 +1064,7 @@ a
   transition: color 0.3s ease;
 }
 
-a:hover
+#menu a:hover
 {
   color: tomato;
 }
@@ -988,15 +1094,12 @@ a:hover
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  z-index: 2; 
   
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
 #menuToggle span
 {
 	
@@ -1028,10 +1131,7 @@ a:hover
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+
 #menuToggle input:checked ~ span
 {
   opacity: 1;
@@ -1039,28 +1139,21 @@ a:hover
   background: #232323;
 }
 
-/*
- * But let's hide the middle one.
- */
+
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
 	
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+
 #menu
 {
 	
@@ -1073,7 +1166,7 @@ a:hover
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
+
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -1090,9 +1183,6 @@ a:hover
 	 
 
 
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:checked ~ ul
 {
 	width:100%;
@@ -1112,9 +1202,10 @@ a:hover
 
 
 #primary {
+	outline:1px solid red;
 	padding:0;
 	margin:auto;
-	max-width:375px;
+	width:100%;
 }
 
 #primaryul {
@@ -1160,10 +1251,11 @@ a:hover
 		width:100%;
 	}
 	section {
+		width:100%;
 	}
 	
 	#wrapper {
-	
+	width:100%;
 
 	}
 	 #quadwrap {
@@ -1181,6 +1273,7 @@ a:hover
 #mid {
 	margin-left:10%;
 	width:80%;
+	
 }
 
 #right {
@@ -1189,13 +1282,27 @@ a:hover
 	
 }
 
-#farright {
-	margin-left:5%;
+#farright ul {
+
 	display:block;
+	outline:1px solid red;
+	
 }
+	 
+	 #newsletter {
+		 width:90%;
+		 
+	 }
+	 
+	 #farright {
+		width:100%;
+	 }
 
 footer {
 	width:100%;
+	height:15%;
+
+	
 	
 }
 
@@ -1206,14 +1313,101 @@ body {
 }
 
 #footercontent {
-	display:none;
+	width:30%;
+	
+	
 }
 	 
 	 
 
 #social {
-	display:none;
+	width:30%;
 }
+	 
+	 #aboutflex {
+		 width:100%;
+		 
+	 }
+	 
+	 #aboutleft {
+		 display:none;
+		 
+	 }
+	 
+	 #aboutright {
+		 width:100%;
+		 margin:auto;
+	 }
+	 
+	 #lpflex {
+		 
+		 width:100%;
+	 }
+	 
+	 #lpleft {
+		 
+		 display:none;
+	 }
+		
+	 #lpright {
+		 width:100%;
+		  
+	 }
+	 
+	 #giwrap {
+		margin:auto;
+		width:100%;
+		display:inline;
+		height:100%;
+	
+		
+	 }
+	 
+	 
+	 #gileft {
+		
+		 display:none;
+	 }
+	 
+	 #giright img {
+		 
+		 width:100%;
+		  padding:0;
+		
+	 }
+	 
+	 #gimid {
+		 
+		 margin:auto;
+		 width:100%;
+	 }
+	 
+	 #giright {
+		 width:100%;
+		 margin:auto;
+	 }
+	 
+	 .bottom {
+		 margin-top:520px;
+		 padding:0;
+		 width:100%;
+		 margin-bottom:250px;
+		
+	 }
+	 
+	
+	 
+	#giwrap img 
+	 {	
+		 width:100%;
+		 position:absolute;
+	 }
+	 
+	 
+	 
+	 
+	 
+	 
 }
 
 

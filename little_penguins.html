@@ -20,7 +20,7 @@
 
 
 
-<header id="menu">
+<header>
 
 <a href="index.html"><img src="images/IMG_0065.png" id="logo"></a>
 	
@@ -31,6 +31,34 @@
 	
 	
 	<nav id="primary">
+		<div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+
+   
+    <ul id="menu">
+      <a href="index.html"><li>Home</li></a>
+      <a href="about.html"><li>About</li></a>
+      <a href="little_penguins.html"><li>Little Penguins</li></a>
+      <a href="get_involved.html"><li>Get Involved</li></a>
+		 <a href="get_involved.html"><li>Donate</li></a>
+		 
+    </ul>
+  </div>
+		
 	<ul id="primaryul">
 		<li class="middle"><a href="index.html">Home</a></li>
 		<li class="middle"><a href="about.html">About Us</a></li>
