@@ -39,20 +39,16 @@ main {
 
 
 
-#headerbutton a {
-	font-size:20px;
-	color:#E78903;
-	padding:40px 70px 40px 70px;
-	vertical-align: middle;
-	border:#E78903 1px solid;
-	border-radius:6px;
+#headerbutton  {
+
+	background-color:#000;
+	opacity:0;
+	width:280px;
+	height:100px;
+	margin:100px auto auto auto;
 	position:absolute;
-	margin-left: 375px;
-	margin-top:100px;
-	background-color:#fff;
-	opacity:0.7;
-	text-decoration:none;
-	
+	right:500px;
+	left:500px;
 
 }
 
@@ -248,11 +244,18 @@ position:relative;
 }
 
 #triwrap {
+	background-color:#efefef;
+	border-radius:12px;
 	max-width:1100px;
 	display:flex;
 	margin: auto;
 	height:auto;
 	justify-content:space-around;
+}
+
+#triwrap h1 {
+	font-size:24px;
+	color:#FFA614;
 }
 
 #eduleft {
@@ -366,7 +369,7 @@ footer {
 }
 
 #footercontent {
-
+	clear: both; 
 	height:25px;
 	position:inline;
 	vertical-align: middle;
@@ -766,15 +769,17 @@ span button:hover {
 #img1 h1, #img2 h1, #img3 h1 {
 	padding: 0 8px 8px 8px;
 	width:80%;
-	color:#FFA614;
+	color:#ff7f1e;
 	font-size:16px;
 }
 	
 	
 .textbox {
+	border-top-right-radius:15px;
+	border-bottom-right-radius: 15px;
 	max-width:500px;
 	border:1px solid #000;
-	
+	background-color:#f2f2f2;
 	
 }
 
@@ -792,7 +797,7 @@ span button:hover {
 #newsleft h1 {
 	padding: 0 px 8px 8px;
 	width:80%;
-	color:#FFA614;
+	color:#ff7f1e;
 	font-size:22px;
 	
 }
@@ -925,6 +930,30 @@ font-size:24px;
 		display:none;
 		weight:0px;
 	}
+#volunteersection h1 {
+	color:#ff7f1e;
+	font-size:24px;
+}
+
+#volunteersection p {
+	
+	
+}
+
+#volunteersection a {
+	color:#ff7f1e;
+}
+#volunteersection {
+	padding:30px;
+	border-radius:25px;
+	background-color:#f2f2f2;
+	width:60%;
+	margin:auto;
+}
+#volunteersection ul li {
+	list-style-type:circle;
+}
+
 
 
 
