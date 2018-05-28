@@ -256,7 +256,7 @@ position:relative;
 
 .triwrap h1 {
 	font-size:24px;
-	color:#FFA614;
+	color:#ff7f1e;
 }
 
 .eduleft {
@@ -312,13 +312,13 @@ position:relative;
 	width:250px;
 	font-size:20px;
 	text-align:center;
-	color:#E8A537;
+	color:#ff7f1e;
 }
 #newsletter {
 	width:250px;
 	font-size:20px;
 	text-align:center;
-	color:#E8A537;
+	color:#ff7f1e;
 }
 .centertext {
 	width:50%;
@@ -500,7 +500,7 @@ footer img:hover {
 
 #aboutright h1 {
 	font-size:24px;
-	color:#FFA614;
+	color:#ff7f1e;
 	padding-left: 15px;
 }
 
@@ -549,17 +549,17 @@ padding: 15px 15px 15px 15px;
 }
 #contactright h1 {
 	font-size:24px;
-	color:#FFA614;
+	color:#ff7f1e;
 }
 
 #contactright h2 {
 	font-size:18px;
-	color:#FFA614;
+	color:#ff7f1e;
 }
 
 #contactleft h1 {
 	font-size:24px;
-	color:#FFA614;
+	color:#ff7f1e;
 }
 
 
@@ -576,20 +576,20 @@ padding: 15px 15px 15px 15px;
 }
 
 #lpright {
-	padding: 15px 15px 15px 15px;
+	padding: 0;
 	width:700px;
 	color:#000;
 }
 
 #lpright h1 {
 	font-size:24px;
-	color:#ffa614;
+	color:#ff7f1e;
 	
 }
 
 #lpright h2 {
 	font-size:18px;
-	color:#ffa614;
+	color:#ff7f1e;
 	
 }
 
@@ -788,8 +788,8 @@ span button:hover {
 }
 
 .date {
-	right:220px;
-	position:absolute;
+	padding:15px;
+	float:Right;
 	font-size:12px;
 	
 }
@@ -803,10 +803,9 @@ span button:hover {
 	
 	
 .textbox {
-	border-top-right-radius:15px;
-	border-bottom-right-radius: 15px;
+	box-shadow: 0 8px 15px rgba(0,0,0,0.4);
 	max-width:500px;
-	border:1px solid #000;
+	zborder:1px solid #000;
 	background-color:#f2f2f2;
 	
 }
@@ -817,20 +816,34 @@ span button:hover {
 
 #newswrap {
 	width:1400px;
-	margin:25px auto auto auto;
+	margin:25px 0 0 0;
 	display:flex;
 	justify-content: space-around;
 }
 
 #newsleft h1 {
-	padding: 0 px 8px 8px;
+	padding: 8px;
 	width:80%;
 	color:#ff7f1e;
 	font-size:22px;
 	
 }
+
+#newsleft img {
+	height:auto;
+	
+}
+#newsleft .textbox {
+	margin-top:-20px;
+
+}
+
+#newsleft p {
+	padding: 8px;
+}
 #newsleft {
 	
+	margin-bottom:0;
 	width:500px;
 }
 
@@ -838,7 +851,10 @@ span button:hover {
 	
 	width:800px;
 }
-
+#newsright img {
+	
+	 box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
 #newsright p {
 	right:0;
 }
@@ -896,22 +912,22 @@ span button:hover {
 }
 
 #donateright h1{
-font-size:24px;
-	color:#FFA614;
+	font-size:24px;
+	color:#ff7f1e;
 
 		
 }
 
 #donatemid h1{
 font-size:24px;
-	color:#FFA614;
+	color:#ff7f1e;
 
 		
 }
 
 #donateleft h1{
 font-size:24px;
-	color:#FFA614;
+	color:#ff7f1e;
 
 		
 }
@@ -945,7 +961,7 @@ font-size:24px;
 
 #galwrap h1 {
 	font-size:24px;
-	color:#FFA614;
+	color:#ff7f1e;
 }
 
 #gtop {
