@@ -243,41 +243,69 @@ position:relative;
 	
 }
 
-#triwrap {
+.triwrap {
+	
 	background-color:#efefef;
 	border-radius:12px;
 	max-width:1100px;
 	display:flex;
-	margin: auto;
+	margin: 50px auto auto auto;
 	height:auto;
 	justify-content:space-around;
 }
 
-#triwrap h1 {
+.triwrap h1 {
 	font-size:24px;
 	color:#FFA614;
 }
 
-#eduleft {
+.eduleft {
 	width:300px;
 	
 }
 
-#edumid {
+.edumid {
 	width:300px;
 	
 }
 
-#eduright {
+.eduright {
 	width:300px;
 	
 }
 
-#educationimg {
-	width:950px;
-	margin:40px auto 30px auto;
+.triwrap ul {
 	
+
 }
+
+.triwrap ul li{
+	list-style-type:circle;
+	line-height:150%;
+	margin-top:15px;
+}
+
+.triwrap3 {
+
+	width:670px;
+	display:flex;
+	margin-left:-370px;
+	margin-top:50px;
+	float:left;
+	justify-content: space-between;
+}
+
+#eduleft3 {
+
+	width:300px;
+}
+
+#eduright3 {
+	
+	width:300px;
+}
+
+
 
 
 #newsletter a{
